@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header1 {
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 3s steps(90) 1s 1 normal both;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+    color: rgb(12, 12, 12);
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+body {
+  font-weight: 400;
+}
+
